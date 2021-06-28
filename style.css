@@ -13,6 +13,7 @@ body{
 }
 
 /* main */
+
 #right-btn{
     position: absolute;
     top: 5px;
@@ -22,7 +23,7 @@ body{
 .btn-top{
     padding: 5px 10px;
     cursor: pointer;
-    background-color: #373737;
+    background: linear-gradient(grey,black);
     color: white;
     border-radius: 10px;
 }
@@ -60,7 +61,7 @@ main{
 
 .backround{
     position: absolute;
-    background-color: #3a3737;
+    background-color: rgba(45,19,12,0.6);
     padding: 8px 5px;
     color: white;
     bottom: 0;
@@ -102,3 +103,88 @@ main{
     margin-right: 20px;
     align-items: flex-start;
 }
+/* main */
+
+/* footer */
+footer{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #232427;
+    align-items: center;
+    color: white;
+}
+.left{
+    width: 10%;
+}
+
+.center{
+    width: 45%;
+}
+
+.right{
+    width: 8%;
+    height: 100%;
+    background-color: #4a4b4d;
+}
+
+.left,
+.center,
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left .icon i{
+    font-size: 2em;
+}
+
+.center .icon i{
+    font-size: 2em;
+}
+
+.right .icon i{
+    font-size: 2em;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.green>i{
+    color: green;
+}
+
+.fa-circle{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.position-top{
+    position: absolute;
+    top: 0;
+    right: 32px;
+}
+
+.center .icon .position-bot{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    font-size: 0.7em;
+}
+
+.right p{
+    color: red;
+    font-size: 18px;
+}
+
+.icon p{
+    padding: 2px;
+}
+/* footer */
