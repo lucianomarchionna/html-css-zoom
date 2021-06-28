@@ -97,11 +97,13 @@ main{
 .l{
     margin-left: 20px;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .r{
     margin-right: 20px;
     align-items: flex-start;
+    cursor: pointer;
 }
 /* main */
 
@@ -155,6 +157,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     position: relative;
+    cursor: pointer;
 }
 
 .green>i{
@@ -182,6 +185,7 @@ footer{
 .right p{
     color: red;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .icon p{
