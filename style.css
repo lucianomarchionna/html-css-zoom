@@ -11,3 +11,25 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* main */
+#right-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.btn-top{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #373737;
+    color: white;
+    border-radius: 10px;
+}
+
+main{
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+}
+
